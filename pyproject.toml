@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "back-end server for TensorBot"
+authors = ["efrat miyara <efrat@tensor-tech.co.il>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+fastapi = "^0.111.0"
+openai = "^1.30.3"
+pydantic = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
